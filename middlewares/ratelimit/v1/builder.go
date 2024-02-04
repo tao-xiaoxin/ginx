@@ -1,4 +1,4 @@
-package ratelimit
+package v1
 
 import (
 	_ "embed"
