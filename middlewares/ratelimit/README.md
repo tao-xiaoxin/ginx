@@ -13,7 +13,7 @@ go get -u github.com/tao-xiaoxin/ginx/middlewares/ratelimit/v1
 import (
     "github.com/gin-gonic/gin"
     "github.com/redis/go-redis/v9"
-    ratelimit "github.com/tao-xiaoxin/ginx/middlewares/ratelimit/v1/ratelimit"
+    ratelimit "github.com/tao-xiaoxin/ginx/middlewares/ratelimit/v1"
 )
 ```
 举个例子:
@@ -23,7 +23,7 @@ package main
 import (
 	"github.com/gin-gonic/gin"
 	"github.com/redis/go-redis/v9"
-	"github.com/tao-xiaoxin/ginx/middlewares/ratelimit/v1/ratelimit"
+	ratelimit "github.com/tao-xiaoxin/ginx/middlewares/ratelimit/v1"
 	"time"
 )
 
