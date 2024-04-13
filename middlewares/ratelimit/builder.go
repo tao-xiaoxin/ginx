@@ -1,13 +1,11 @@
-package v2
+package ratelimit
 
 import (
+	"github.com/gin-gonic/gin"
+	"github.com/tao-xiaoxin/ginx/internal/ratelimit"
 	"log"
 	"net/http"
 	"strings"
-
-	"github.com/gin-gonic/gin"
-
-	"github.com/tao-xiaoxin/ginx/internal/ratelimit"
 )
 
 type Builder struct {

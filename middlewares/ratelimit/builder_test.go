@@ -1,7 +1,8 @@
-package v2
+package ratelimit
 
 import (
 	"errors"
+	"github.com/tao-xiaoxin/ginx/internal/ratelimit"
 	"net/http"
 	"net/http/httptest"
 	"testing"
@@ -10,7 +11,6 @@ import (
 	"github.com/stretchr/testify/assert"
 	"go.uber.org/mock/gomock"
 
-	"github.com/tao-xiaoxin/ginx/internal/ratelimit"
 	limitmocks "github.com/tao-xiaoxin/ginx/internal/ratelimit/mocks"
 )
 

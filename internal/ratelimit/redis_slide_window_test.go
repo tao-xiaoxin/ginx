@@ -64,7 +64,7 @@ func TestRedisSlidingWindowLimiter_Limit(t *testing.T) {
 
 func initRedis() redis.Cmdable {
 	redisClient := redis.NewClient(&redis.Options{
-		Addr: "localhost:16379",
+		Addr: "localhost:6379",
 	})
 	return redisClient
 }
